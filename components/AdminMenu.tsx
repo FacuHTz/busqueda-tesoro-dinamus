@@ -6,7 +6,7 @@ import { normalizeCode, vibrate } from "@/lib/utils";
 
 type Props = {
   onReset: () => void;
-  onSolveCurrent: () => void;
+  onSolveCurrent?: () => void;
 };
 
 /**
@@ -69,12 +69,14 @@ export default function AdminMenu({ onReset, onSolveCurrent }: Props) {
             {error && <p className="mt-2 text-center text-xs font-semibold text-rose-400">Código incorrecto 🙅</p>}
 
             <div className="mt-5 flex flex-col gap-3">
-              <button
-                onClick={() => run(onSolveCurrent)}
-                className="w-full rounded-xl bg-amber-500 px-4 py-3 text-sm font-bold text-slate-950 shadow-lg shadow-amber-500/30 active:scale-95"
-              >
-                Resolver la actual ✅
-              </button>
+              {onSolveCurrent && (
+                <button
+                  onClick={() => run(onSolveCurrent)}
+                  className="w-full rounded-xl bg-amber-500 px-4 py-3 text-sm font-bold text-slate-950 shadow-lg shadow-amber-500/30 active:scale-95"
+                >
+                  Resolver la actual ✅
+                </button>
+              )}
               <button
                 onClick={() => run(onReset)}
                 className="w-full rounded-xl bg-rose-600 px-4 py-3 text-sm font-bold text-white shadow-lg shadow-rose-600/30 active:scale-95"
