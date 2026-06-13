@@ -316,7 +316,7 @@ export const TEAMS: Team[] = [
             "Con una cuerda o un cordón, hagan un NUDO LLANO (o el que indique el líder) y muéstrenselo en persona.\n\nSi está bien hecho, el líder les da el código para continuar.",
           code: "NUDOOKA", // ✏️ EDITAR: código que da el líder al aprobar el reto
         },
-        clue: { text: "No tengo portero siempre, pero espero el pelotazo, soy el sueño del delantero y la pesadilla de algún que otro pinchazo.", code: "HEBRON" },
+        clue: { text: "Buscá a Facu o a Nico y mostrales las fotos del reto para recibir el código.", code: "HEBRON" },
       },
       {
         id: "a13",
@@ -328,7 +328,7 @@ export const TEAMS: Team[] = [
             "Con el celu del equipo, saquen fotos representando AL MENOS 3 frutos del Espíritu (por ejemplo, gozo = todos riendo; paz = abrazo; paciencia = haciendo una fila).\n\nMuéstrenle las fotos al líder para recibir el código.",
           code: "FRUTOSOKA", // ✏️ EDITAR: código que da el líder al aprobar el reto
         },
-        clue: { text: "Hago frío todo el día y zumbo sin parar, abrime si tenés hambre, que algo te voy a dar.", code: "HOREB" },
+        clue: { text: "Hago frío todo el día y zumbo sin parar, abrime si tenés hambre, que algo te voy a dar.", code: "ARARAT" },
       },
       {
         id: "a14",
@@ -339,7 +339,7 @@ export const TEAMS: Team[] = [
           options: ["6", "7", "8", "10"],
           correct: 2,
         },
-        clue: { text: "Todos se sientan en mí pero nadie me lo agradece, cada sábado me llenan y al rato me vacían por toda la semana :(", code: "ARARAT" },
+        clue: { text: "Todos se sientan en mí pero nadie me lo agradece, cada sábado me llenan y al rato me vacían por toda la semana :(", code: "JERUSALEN" },
       },
       {
         id: "a15",
@@ -350,7 +350,7 @@ export const TEAMS: Team[] = [
           options: ["Orientación", "Astronomía", "Arte de acampar", "Senderismo"],
           correct: 0,
         },
-        clue: { text: "Me colgaron entre dos puntos y me dejaron balancear, si te sentás y te empujás, te olvidás de todo el azar.", code: "JERUSALEN" },
+        clue: { text: "Me colgaron entre dos puntos y me dejaron balancear, si te sentás y te empujás, te olvidás de todo el azar.", code: "SIQUEM" },
       },
       {
         id: "a16",
@@ -361,7 +361,7 @@ export const TEAMS: Team[] = [
           options: ["Amigo", "Compañero", "Capitán", "Explorador"],
           correct: 2,
         },
-        clue: { text: "Soy un cuartito reservado, donde van cables, herramientas y cosas, no es glamorosa mi función pero soy de las valiosas.", code: "SIQUEM" },
+        clue: { text: "Soy un cuartito reservado, donde van cables, herramientas y cosas, no es glamorosa mi función pero soy de las valiosas.", code: "GALILEA" },
 
       },
       {
@@ -373,7 +373,7 @@ export const TEAMS: Team[] = [
           subtitle: "Tocá las palabras en orden.",
           phrase: "Lámpara es a mis pies tu palabra y lumbrera a mi camino",
         },
-        clue: { text: "Soy enorme y de ladrillo, no tengo revoque ni pintura, si me mirás de cerca ves mi verdadera textura.", code: "GALILEA" },
+        clue: { text: "Soy enorme y de ladrillo, no tengo revoque ni pintura, si me mirás de cerca ves mi verdadera textura.", code: "HERMON" },
       },
       {
         id: "a18",
@@ -384,14 +384,14 @@ export const TEAMS: Team[] = [
           options: ["Soplar la herida para que no arda", "Presionar la zona con un paño limpio", "Mojarla con agua bien fría", "Frotarla con tierra"],
           correct: 1,
         },
-        clue: { text: "Busca la pista del personaje del sermón de hoy y completá el último desafío.", code: "HERMON" },
+        clue: { text: "Ya estamos cerca de la final! para este momento tendrás que recordar de quien habló en su tema gonza anoche", code: "SAMUEL" },
       },
       {
         id: "a8",
         challenge: DESAFIO_SERMON,
         clue: {
           // ✏️ EDITAR: ¡la pista FINAL! Lleva directo al tesoro.
-          text: "🏆 ¡ÚLTIMA PISTA! El tesoro los espera donde todo comenzó esta tarde… Cuando lo encuentren, ingresen el código que está pegado al cofre.",
+          text: "🏆 ¡ÚLTIMA PISTA! La llave del tesoro los espera en un objeto redondo, que pica, crea disputas y nos alegra las noches de after",
           code: "GLORIA", // ✏️ código pegado al tesoro del equipo Águilas
         },
       },
