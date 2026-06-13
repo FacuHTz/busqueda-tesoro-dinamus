@@ -116,6 +116,25 @@ export default function Page() {
     setNonce((n) => n + 1);
   };
 
+  // ── Resolver el paso actual (líder) ───────────────────────
+  // Salta la pantalla visible: si es un desafío pasa a la pista
+  // (o avanza si no tiene), y si es una pista avanza al siguiente paso.
+  const handleSolveCurrent = () => {
+    setOverlay(null);
+    if (!progress || !team) return;
+    if (progress.phase === "challenge") {
+      const step = team.steps[progress.stepIndex];
+      if (step?.clue) {
+        update({ ...progress, phase: "clue", penaltyUntil: 0 });
+        setNonce((n) => n + 1);
+      } else {
+        advanceAfterClue();
+      }
+    } else {
+      advanceAfterClue();
+    }
+  };
+
   // ──────────────────────────────────────────────────────────
   if (!mounted) {
     return (
@@ -156,7 +175,7 @@ export default function Page() {
 
   return (
     <>
-      <GameHeader team={team} stepIndex={progress.stepIndex} onReset={handleReset} />
+      <GameHeader team={team} stepIndex={progress.stepIndex} onReset={handleReset} onSolveCurrent={handleSolveCurrent} />
 
       <main className="mx-auto min-h-screen max-w-md">
         {progress.phase === "challenge" ? (

@@ -4,7 +4,6 @@ import { useState } from "react";
 import type { Clue } from "@/lib/types";
 import { CONFIG } from "@/data/games";
 import { normalizeCode, vibrate } from "@/lib/utils";
-import BypassButton from "./BypassButton";
 
 type Props = {
   clue: Clue;
@@ -99,7 +98,5 @@ export default function ClueScreen({ clue, clueNumber, isLast, onCorrect, onTooM
         </button>
       </div>
     </div>
-
-    <BypassButton onBypass={onCorrect} />
   );
 }

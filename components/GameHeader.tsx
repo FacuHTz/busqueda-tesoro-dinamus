@@ -7,9 +7,10 @@ type Props = {
   team: Team;
   stepIndex: number; // 0-based
   onReset: () => void;
+  onSolveCurrent: () => void;
 };
 
-export default function GameHeader({ team, stepIndex, onReset }: Props) {
+export default function GameHeader({ team, stepIndex, onReset, onSolveCurrent }: Props) {
   const total = team.steps.length;
   const current = Math.min(stepIndex + 1, total);
   const pct = Math.round((stepIndex / total) * 100);
@@ -28,7 +29,7 @@ export default function GameHeader({ team, stepIndex, onReset }: Props) {
           <span className="text-xs font-semibold text-slate-400">
             Prueba {current}/{total}
           </span>
-          <AdminMenu onReset={onReset} />
+          <AdminMenu onReset={onReset} onSolveCurrent={onSolveCurrent} />
         </div>
       </div>
 
