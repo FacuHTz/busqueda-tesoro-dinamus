@@ -44,6 +44,7 @@ export default function ClueScreen({ clue, clueNumber, isLast, onCorrect, onTooM
   const remaining = CONFIG.MAX_CODE_ATTEMPTS - attempts;
 
   return (
+    <>
     <div className="animate-fadeUp px-5 pb-28 pt-6">
       <div className="mx-auto max-w-md">
         <div className="text-center">
@@ -100,6 +101,7 @@ export default function ClueScreen({ clue, clueNumber, isLast, onCorrect, onTooM
       </div>
     </div>
 
-    <BypassButton onBypass={onCorrect} />
+      <BypassButton onBypass={onCorrect} />
+    </>
   );
 }
