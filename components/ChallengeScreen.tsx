@@ -7,6 +7,7 @@ import WordOrder from "./challenges/WordOrder";
 import OrderList from "./challenges/OrderList";
 import FindAll from "./challenges/FindAll";
 import PhotoChallenge from "./challenges/PhotoChallenge";
+import BypassButton from "./BypassButton";
 
 type Props = {
   challenge: Challenge;
@@ -54,5 +55,7 @@ export default function ChallengeScreen({ challenge, onCorrect, onWrong }: Props
         )}
       </div>
     </div>
+
+    <BypassButton onBypass={onCorrect} />
   );
 }
