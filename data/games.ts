@@ -277,6 +277,119 @@ export const TEAMS: Team[] = [
         },
       },
       {
+        id: "a9",
+        challenge: {
+          type: "word-order",
+          emoji: "🎯",
+          title: "Armá el Blanco del Conquistador",
+          subtitle: "Tocá las palabras en orden.",
+          phrase: "El mensaje del advenimiento a todo el mundo en mi generación",
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA9" },
+      },
+      {
+        id: "a10",
+        challenge: {
+          type: "order-list",
+          emoji: "🏕️",
+          title: "Ordená las clases progresivas",
+          subtitle: "De la primera a la última.",
+          items: ["Amigo", "Compañero", "Explorador", "Orientador", "Viajero", "Guía"],
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA10" },
+      },
+      {
+        id: "a11",
+        challenge: {
+          type: "find-all",
+          emoji: "🍇",
+          title: "Encontrá los frutos del Espíritu",
+          subtitle: "Tocá los 9 frutos del Espíritu y validá. ¡Ojo con los intrusos!",
+          targets: ["Amor", "Gozo", "Paz", "Paciencia", "Benignidad", "Bondad", "Fe", "Mansedumbre", "Templanza"],
+          decoys: ["Ira", "Envidia", "Orgullo", "Egoísmo", "Pereza", "Mentira", "Codicia", "Rencor", "Miedo", "Venganza", "Soberbia"],
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA11" },
+      },
+      {
+        id: "a12",
+        challenge: {
+          type: "photo-challenge",
+          emoji: "🪢",
+          title: "Reto: ¡el nudo!",
+          instructions:
+            "Con una cuerda o un cordón, hagan un NUDO LLANO (o el que indique el líder) y muéstrenselo en persona.\n\nSi está bien hecho, el líder les da el código para continuar.",
+          code: "NUDOOKA", // ✏️ EDITAR: código que da el líder al aprobar el reto
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA12" },
+      },
+      {
+        id: "a13",
+        challenge: {
+          type: "photo-challenge",
+          emoji: "🍇",
+          title: "Reto: frutos en acción",
+          instructions:
+            "Con el celu del equipo, saquen fotos representando AL MENOS 3 frutos del Espíritu (por ejemplo, gozo = todos riendo; paz = abrazo; paciencia = haciendo una fila).\n\nMuéstrenle las fotos al líder para recibir el código.",
+          code: "FRUTOSOKA", // ✏️ EDITAR: código que da el líder al aprobar el reto
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA13" },
+      },
+      {
+        id: "a14",
+        challenge: {
+          type: "multiple-choice",
+          emoji: "📜",
+          question: "¿Cuántos puntos tiene la Ley del Conquistador?",
+          options: ["6", "7", "8", "10"],
+          correct: 2,
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA14" },
+      },
+      {
+        id: "a15",
+        challenge: {
+          type: "multiple-choice",
+          emoji: "🧭",
+          question: "¿Qué especialidad enseña a usar la brújula y orientarse con un mapa?",
+          options: ["Orientación", "Astronomía", "Arte de acampar", "Senderismo"],
+          correct: 0,
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA15" },
+      },
+      {
+        id: "a16",
+        challenge: {
+          type: "multiple-choice",
+          emoji: "🏕️",
+          question: "¿Cuál de estas NO es una clase progresiva del Conquistador?",
+          options: ["Amigo", "Compañero", "Capitán", "Explorador"],
+          correct: 2,
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA16" },
+      },
+      {
+        id: "a17",
+        challenge: {
+          type: "word-order",
+          emoji: "🕯️",
+          title: "Armá el Salmo 119:105",
+          subtitle: "Tocá las palabras en orden.",
+          phrase: "Lámpara es a mis pies tu palabra y lumbrera a mi camino",
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA17" },
+      },
+      {
+        id: "a18",
+        challenge: {
+          type: "multiple-choice",
+          emoji: "⛑️",
+          question: "Ante una herida que sangra, ¿qué es lo primero que hay que hacer?",
+          options: ["Soplar la herida para que no arda", "Presionar la zona con un paño limpio", "Mojarla con agua bien fría", "Frotarla con tierra"],
+          correct: 1,
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA18" },
+      },
+      {
         id: "a8",
         challenge: DESAFIO_SERMON,
         clue: {
@@ -384,6 +497,119 @@ export const TEAMS: Team[] = [
           text: "El banco más viejo de todos esconde algo donde apoyás los pies… 🪵",
           code: "GOSEN",
         },
+      },
+      {
+        id: "l9",
+        challenge: {
+          type: "word-order",
+          emoji: "🎯",
+          title: "Armá el Blanco del Conquistador",
+          subtitle: "Tocá las palabras en orden.",
+          phrase: "El mensaje del advenimiento a todo el mundo en mi generación",
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL9" },
+      },
+      {
+        id: "l10",
+        challenge: {
+          type: "order-list",
+          emoji: "🏕️",
+          title: "Ordená las clases progresivas",
+          subtitle: "De la primera a la última.",
+          items: ["Amigo", "Compañero", "Explorador", "Orientador", "Viajero", "Guía"],
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL10" },
+      },
+      {
+        id: "l11",
+        challenge: {
+          type: "find-all",
+          emoji: "🍇",
+          title: "Encontrá los frutos del Espíritu",
+          subtitle: "Tocá los 9 frutos del Espíritu y validá. ¡Ojo con los intrusos!",
+          targets: ["Amor", "Gozo", "Paz", "Paciencia", "Benignidad", "Bondad", "Fe", "Mansedumbre", "Templanza"],
+          decoys: ["Ira", "Envidia", "Orgullo", "Egoísmo", "Pereza", "Mentira", "Codicia", "Rencor", "Miedo", "Venganza", "Soberbia"],
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL11" },
+      },
+      {
+        id: "l12",
+        challenge: {
+          type: "photo-challenge",
+          emoji: "🪢",
+          title: "Reto: ¡el nudo!",
+          instructions:
+            "Con una cuerda o un cordón, hagan un NUDO LLANO (o el que indique el líder) y muéstrenselo en persona.\n\nSi está bien hecho, el líder les da el código para continuar.",
+          code: "NUDOOKL", // ✏️ EDITAR: código que da el líder al aprobar el reto
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL12" },
+      },
+      {
+        id: "l13",
+        challenge: {
+          type: "photo-challenge",
+          emoji: "🍇",
+          title: "Reto: frutos en acción",
+          instructions:
+            "Con el celu del equipo, saquen fotos representando AL MENOS 3 frutos del Espíritu (por ejemplo, gozo = todos riendo; paz = abrazo; paciencia = haciendo una fila).\n\nMuéstrenle las fotos al líder para recibir el código.",
+          code: "FRUTOSOKL", // ✏️ EDITAR: código que da el líder al aprobar el reto
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL13" },
+      },
+      {
+        id: "l14",
+        challenge: {
+          type: "multiple-choice",
+          emoji: "📜",
+          question: "¿Cuántos puntos tiene la Ley del Conquistador?",
+          options: ["6", "7", "8", "10"],
+          correct: 2,
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL14" },
+      },
+      {
+        id: "l15",
+        challenge: {
+          type: "multiple-choice",
+          emoji: "🧭",
+          question: "¿Qué especialidad enseña a usar la brújula y orientarse con un mapa?",
+          options: ["Orientación", "Astronomía", "Arte de acampar", "Senderismo"],
+          correct: 0,
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL15" },
+      },
+      {
+        id: "l16",
+        challenge: {
+          type: "multiple-choice",
+          emoji: "🏕️",
+          question: "¿Cuál de estas NO es una clase progresiva del Conquistador?",
+          options: ["Amigo", "Compañero", "Capitán", "Explorador"],
+          correct: 2,
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL16" },
+      },
+      {
+        id: "l17",
+        challenge: {
+          type: "word-order",
+          emoji: "🕯️",
+          title: "Armá el Salmo 119:105",
+          subtitle: "Tocá las palabras en orden.",
+          phrase: "Lámpara es a mis pies tu palabra y lumbrera a mi camino",
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL17" },
+      },
+      {
+        id: "l18",
+        challenge: {
+          type: "multiple-choice",
+          emoji: "⛑️",
+          question: "Ante una herida que sangra, ¿qué es lo primero que hay que hacer?",
+          options: ["Soplar la herida para que no arda", "Presionar la zona con un paño limpio", "Mojarla con agua bien fría", "Frotarla con tierra"],
+          correct: 1,
+        },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL18" },
       },
       {
         id: "l8",
