@@ -285,7 +285,7 @@ export const TEAMS: Team[] = [
           subtitle: "Tocá las palabras en orden.",
           phrase: "El mensaje del advenimiento a todo el mundo en mi generación",
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA9" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "JERICÓ" },
       },
       {
         id: "a10",
@@ -296,7 +296,7 @@ export const TEAMS: Team[] = [
           subtitle: "De la primera a la última.",
           items: ["Amigo", "Compañero", "Explorador", "Orientador", "Viajero", "Guía"],
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA10" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "SION" },
       },
       {
         id: "a11",
@@ -308,7 +308,7 @@ export const TEAMS: Team[] = [
           targets: ["Amor", "Gozo", "Paz", "Paciencia", "Benignidad", "Bondad", "Fe", "Mansedumbre", "Templanza"],
           decoys: ["Ira", "Envidia", "Orgullo", "Egoísmo", "Pereza", "Mentira", "Codicia", "Rencor", "Miedo", "Venganza", "Soberbia"],
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA11" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "CARMELO" },
       },
       {
         id: "a12",
@@ -320,7 +320,7 @@ export const TEAMS: Team[] = [
             "Con una cuerda o un cordón, hagan un NUDO LLANO (o el que indique el líder) y muéstrenselo en persona.\n\nSi está bien hecho, el líder les da el código para continuar.",
           code: "NUDOOKA", // ✏️ EDITAR: código que da el líder al aprobar el reto
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA12" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "HEBRON" },
       },
       {
         id: "a13",
@@ -332,7 +332,7 @@ export const TEAMS: Team[] = [
             "Con el celu del equipo, saquen fotos representando AL MENOS 3 frutos del Espíritu (por ejemplo, gozo = todos riendo; paz = abrazo; paciencia = haciendo una fila).\n\nMuéstrenle las fotos al líder para recibir el código.",
           code: "FRUTOSOKA", // ✏️ EDITAR: código que da el líder al aprobar el reto
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA13" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "HOREB" },
       },
       {
         id: "a14",
@@ -343,7 +343,7 @@ export const TEAMS: Team[] = [
           options: ["6", "7", "8", "10"],
           correct: 2,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA14" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "ARARAT" },
       },
       {
         id: "a15",
@@ -354,7 +354,7 @@ export const TEAMS: Team[] = [
           options: ["Orientación", "Astronomía", "Arte de acampar", "Senderismo"],
           correct: 0,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA15" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "JERUSALEN" },
       },
       {
         id: "a16",
@@ -365,7 +365,7 @@ export const TEAMS: Team[] = [
           options: ["Amigo", "Compañero", "Capitán", "Explorador"],
           correct: 2,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA16" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "SIQUEM" },
       },
       {
         id: "a17",
@@ -376,7 +376,7 @@ export const TEAMS: Team[] = [
           subtitle: "Tocá las palabras en orden.",
           phrase: "Lámpara es a mis pies tu palabra y lumbrera a mi camino",
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA17" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "GALILEA" },
       },
       {
         id: "a18",
@@ -387,7 +387,7 @@ export const TEAMS: Team[] = [
           options: ["Soplar la herida para que no arda", "Presionar la zona con un paño limpio", "Mojarla con agua bien fría", "Frotarla con tierra"],
           correct: 1,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAA18" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "HERMON" },
       },
       {
         id: "a8",
@@ -507,7 +507,7 @@ export const TEAMS: Team[] = [
           subtitle: "Tocá las palabras en orden.",
           phrase: "El mensaje del advenimiento a todo el mundo en mi generación",
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL9" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "SION" },
       },
       {
         id: "l10",
@@ -518,7 +518,7 @@ export const TEAMS: Team[] = [
           subtitle: "De la primera a la última.",
           items: ["Amigo", "Compañero", "Explorador", "Orientador", "Viajero", "Guía"],
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL10" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "NAZARET" },
       },
       {
         id: "l11",
@@ -530,7 +530,7 @@ export const TEAMS: Team[] = [
           targets: ["Amor", "Gozo", "Paz", "Paciencia", "Benignidad", "Bondad", "Fe", "Mansedumbre", "Templanza"],
           decoys: ["Ira", "Envidia", "Orgullo", "Egoísmo", "Pereza", "Mentira", "Codicia", "Rencor", "Miedo", "Venganza", "Soberbia"],
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL11" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "BELEN" },
       },
       {
         id: "l12",
@@ -542,7 +542,7 @@ export const TEAMS: Team[] = [
             "Con una cuerda o un cordón, hagan un NUDO LLANO (o el que indique el líder) y muéstrenselo en persona.\n\nSi está bien hecho, el líder les da el código para continuar.",
           code: "NUDOOKL", // ✏️ EDITAR: código que da el líder al aprobar el reto
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL12" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "JUDEA" },
       },
       {
         id: "l13",
@@ -554,7 +554,7 @@ export const TEAMS: Team[] = [
             "Con el celu del equipo, saquen fotos representando AL MENOS 3 frutos del Espíritu (por ejemplo, gozo = todos riendo; paz = abrazo; paciencia = haciendo una fila).\n\nMuéstrenle las fotos al líder para recibir el código.",
           code: "FRUTOSOKL", // ✏️ EDITAR: código que da el líder al aprobar el reto
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL13" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "SAMARIA" },
       },
       {
         id: "l14",
@@ -565,7 +565,7 @@ export const TEAMS: Team[] = [
           options: ["6", "7", "8", "10"],
           correct: 2,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL14" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "EGIPTO" },
       },
       {
         id: "l15",
@@ -576,7 +576,7 @@ export const TEAMS: Team[] = [
           options: ["Orientación", "Astronomía", "Arte de acampar", "Senderismo"],
           correct: 0,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL15" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "JORDAN" },
       },
       {
         id: "l16",
@@ -587,7 +587,7 @@ export const TEAMS: Team[] = [
           options: ["Amigo", "Compañero", "Capitán", "Explorador"],
           correct: 2,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL16" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "SINAI" },
       },
       {
         id: "l17",
@@ -598,7 +598,7 @@ export const TEAMS: Team[] = [
           subtitle: "Tocá las palabras en orden.",
           phrase: "Lámpara es a mis pies tu palabra y lumbrera a mi camino",
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL17" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "TABOR" },
       },
       {
         id: "l18",
@@ -609,7 +609,7 @@ export const TEAMS: Team[] = [
           options: ["Soplar la herida para que no arda", "Presionar la zona con un paño limpio", "Mojarla con agua bien fría", "Frotarla con tierra"],
           correct: 1,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "PISTAL18" },
+        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "JERUSALEN" },
       },
       {
         id: "l8",
