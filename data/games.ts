@@ -197,7 +197,7 @@ export const TEAMS: Team[] = [
         },
         clue: {
           // ✏️ EDITAR: pista real del equipo Águilas n.º 1
-          text: "Donde las voces se juntan para alabar, debajo del asiento más cercano al instrumento musical, algo vas a encontrar… 🎹",
+          text: "Me cortan en el bosque y me apilan con cuidado, cuando llega el frío soy el más buscado.",
           code: "JORDAN", // ✏️ código escrito en el papel escondido
         },
       },
@@ -212,7 +212,7 @@ export const TEAMS: Team[] = [
         },
         clue: {
           // ✏️ EDITAR
-          text: "El agua que refresca a los sedientos guarda un secreto en su parte de atrás… 🚰",
+          text: "Tengo jugadores pero ninguno suda, girás una manija y el partido no se muda.",
           code: "SINAI",
         },
       },
@@ -221,7 +221,7 @@ export const TEAMS: Team[] = [
         challenge: DESAFIO_DISCIPULOS,
         clue: {
           // ✏️ EDITAR
-          text: "Entre las páginas donde se anotan los que llegan, hay un papel que no es de la lista… 📋",
+          text: "Soy blanca, grande y práctica, llevo gente o mercadería, francesa de nacimiento pero acá me la banco todo el día.",
           code: "EDEN",
         },
       },
