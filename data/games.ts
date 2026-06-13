@@ -238,8 +238,7 @@ export const TEAMS: Team[] = [
           correct: 0,
         },
         clue: {
-          // ✏️ EDITAR
-          text: "Donde los más chicos juegan y se ríen, mirá bien abajo del tobogán… 🛝",
+          text: "Soy chica y discreta, pero cargo un peso grande, sostengo el fresquito del verano para que nadie se mande.",
           code: "BETEL",
         },
       },
@@ -247,8 +246,7 @@ export const TEAMS: Team[] = [
         id: "a5",
         challenge: DESAFIO_GATO_ANDY,
         clue: {
-          // ✏️ EDITAR
-          text: "El árbol más grande del patio guarda algo entre sus raíces… 🌳",
+          text: "Soy fuerte, soy derecha, y aunque no me muevo nada, sostengo el techo entero sin pedir ninguna palmada.",
           code: "CANAAN",
         },
       },
@@ -262,8 +260,7 @@ export const TEAMS: Team[] = [
           items: DIAS_CREACION,
         },
         clue: {
-          // ✏️ EDITAR
-          text: "Donde se guardan las sillas que descansan, una está marcada con una cinta… 🪑",
+          text: "Buscá a Facu o a Nico y mostrales las fotos del reto para recibir el código.",
           code: "MORIAH",
         },
       },
@@ -271,8 +268,7 @@ export const TEAMS: Team[] = [
         id: "a7",
         challenge: desafioPlagas("MOISES"), // ✏️ código que Andy le da al equipo Águilas
         clue: {
-          // ✏️ EDITAR
-          text: "En la puerta por donde nadie entra, pero todos miran, hay algo pegado bien abajo… 🚪",
+          text: "Soy un cartel que anuncia... ¿un canal? ¿una era? Algo nuevo, algo de tiempo..",
           code: "GALAAD",
         },
       },
@@ -285,7 +281,7 @@ export const TEAMS: Team[] = [
           subtitle: "Tocá las palabras en orden.",
           phrase: "El mensaje del advenimiento a todo el mundo en mi generación",
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "JERICÓ" },
+        clue: { text: "Me trepo por el tejido que divide los patios, no soy una pared pero igual pongo a todos en espacios.", code: "JERICÓ" },
       },
       {
         id: "a10",
@@ -296,7 +292,7 @@ export const TEAMS: Team[] = [
           subtitle: "De la primera a la última.",
           items: ["Amigo", "Compañero", "Explorador", "Orientador", "Viajero", "Guía"],
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "SION" },
+        clue: { text: "Me mirás cuando te aburrís, estoy sobre tu cabeza, no digo nada pero cubro todo con firmeza.", code: "SION" },
       },
       {
         id: "a11",
@@ -308,7 +304,7 @@ export const TEAMS: Team[] = [
           targets: ["Amor", "Gozo", "Paz", "Paciencia", "Benignidad", "Bondad", "Fe", "Mansedumbre", "Templanza"],
           decoys: ["Ira", "Envidia", "Orgullo", "Egoísmo", "Pereza", "Mentira", "Codicia", "Rencor", "Miedo", "Venganza", "Soberbia"],
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "CARMELO" },
+        clue: { text: "Buscá a Facu o a Nico y mostrales las fotos del reto para recibir el código.", code: "CARMELO" },
       },
       {
         id: "a12",
@@ -320,7 +316,7 @@ export const TEAMS: Team[] = [
             "Con una cuerda o un cordón, hagan un NUDO LLANO (o el que indique el líder) y muéstrenselo en persona.\n\nSi está bien hecho, el líder les da el código para continuar.",
           code: "NUDOOKA", // ✏️ EDITAR: código que da el líder al aprobar el reto
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "HEBRON" },
+        clue: { text: "No tengo portero siempre, pero espero el pelotazo, soy el sueño del delantero y la pesadilla de algún que otro pinchazo.", code: "HEBRON" },
       },
       {
         id: "a13",
@@ -332,7 +328,7 @@ export const TEAMS: Team[] = [
             "Con el celu del equipo, saquen fotos representando AL MENOS 3 frutos del Espíritu (por ejemplo, gozo = todos riendo; paz = abrazo; paciencia = haciendo una fila).\n\nMuéstrenle las fotos al líder para recibir el código.",
           code: "FRUTOSOKA", // ✏️ EDITAR: código que da el líder al aprobar el reto
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "HOREB" },
+        clue: { text: "Hago frío todo el día y zumbo sin parar, abrime si tenés hambre, que algo te voy a dar.", code: "HOREB" },
       },
       {
         id: "a14",
@@ -343,7 +339,7 @@ export const TEAMS: Team[] = [
           options: ["6", "7", "8", "10"],
           correct: 2,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "ARARAT" },
+        clue: { text: "Todos se sientan en mí pero nadie me lo agradece, cada sábado me llenan y al rato me vacían por toda la semana :(", code: "ARARAT" },
       },
       {
         id: "a15",
@@ -354,7 +350,7 @@ export const TEAMS: Team[] = [
           options: ["Orientación", "Astronomía", "Arte de acampar", "Senderismo"],
           correct: 0,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "JERUSALEN" },
+        clue: { text: "Me colgaron entre dos puntos y me dejaron balancear, si te sentás y te empujás, te olvidás de todo el azar.", code: "JERUSALEN" },
       },
       {
         id: "a16",
@@ -365,7 +361,8 @@ export const TEAMS: Team[] = [
           options: ["Amigo", "Compañero", "Capitán", "Explorador"],
           correct: 2,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "SIQUEM" },
+        clue: { text: "Soy un cuartito reservado, donde van cables, herramientas y cosas, no es glamorosa mi función pero soy de las valiosas.", code: "SIQUEM" },
+
       },
       {
         id: "a17",
@@ -376,7 +373,7 @@ export const TEAMS: Team[] = [
           subtitle: "Tocá las palabras en orden.",
           phrase: "Lámpara es a mis pies tu palabra y lumbrera a mi camino",
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "GALILEA" },
+        clue: { text: "Soy enorme y de ladrillo, no tengo revoque ni pintura, si me mirás de cerca ves mi verdadera textura.", code: "GALILEA" },
       },
       {
         id: "a18",
@@ -387,7 +384,7 @@ export const TEAMS: Team[] = [
           options: ["Soplar la herida para que no arda", "Presionar la zona con un paño limpio", "Mojarla con agua bien fría", "Frotarla con tierra"],
           correct: 1,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "HERMON" },
+        clue: { text: "Busca la pista del personaje del sermón de hoy y completá el último desafío.", code: "HERMON" },
       },
       {
         id: "a8",
@@ -421,8 +418,7 @@ export const TEAMS: Team[] = [
           correct: 3,
         },
         clue: {
-          // ✏️ EDITAR: pista real del equipo Leones n.º 1
-          text: "Donde se anuncia lo que viene y lo que pasó, detrás del papel más nuevo hay otro papel… 📌",
+          text: "Parado y orgulloso, bien alto y sin mover, sostengo una bandera que ondea con el viento al anochecer.",
           code: "NILO",
         },
       },
@@ -436,8 +432,7 @@ export const TEAMS: Team[] = [
           items: LEY_CONQUISTADOR,
         },
         clue: {
-          // ✏️ EDITAR
-          text: "El que cuida la entrada todos los sábados tiene algo escondido cerca de sus pies… 🚪",
+          text: "No soy un adorno cualquiera, me pusieron con razón: este lugar tiene historia, y yo soy su declaración.",
           code: "JERICO",
         },
       },
@@ -445,8 +440,7 @@ export const TEAMS: Team[] = [
         id: "l3",
         challenge: DESAFIO_DISCIPULOS,
         clue: {
-          // ✏️ EDITAR
-          text: "Entre los libros que cantan, uno tiene un marcador que no debería estar ahí… 📕",
+          text: "Tengo seis cuerdas y espero que me toques con ganas, soy madera y música... y una compañera de las buenas.",
           code: "SILO",
         },
       },
@@ -460,8 +454,7 @@ export const TEAMS: Team[] = [
           correct: 1,
         },
         clue: {
-          // ✏️ EDITAR
-          text: "Bajo el cielo abierto, donde los autos descansan, busquen junto a la rueda del rincón… 🚗",
+          text: "Somos tres y medio, damos sombra, y al fondo nos quedamos, con el viento hacemos música aunque no lo proclamamos.",
           code: "HEBRON",
         },
       },
@@ -469,8 +462,7 @@ export const TEAMS: Team[] = [
         id: "l5",
         challenge: DESAFIO_GATO_ANDY,
         clue: {
-          // ✏️ EDITAR
-          text: "La ventana que mira al patio guarda un secreto en su marco… 🪟",
+          text: "Soy un cuarto chico con puerta y cerrojo, solo para ellos... al menos eso dice el rótulo.",
           code: "CARMELO",
         },
       },
@@ -484,8 +476,7 @@ export const TEAMS: Team[] = [
           phrase: "Por la gracia de Dios seré puro bondadoso y leal",
         },
         clue: {
-          // ✏️ EDITAR
-          text: "Donde se prepara el alimento que compartimos, abajo de la mesada hay algo pegado… 🍽️",
+          text: "Buscá a Facu o a Nico y mostrales las fotos del reto para recibir el código.",
           code: "BETANIA",
         },
       },
@@ -493,8 +484,7 @@ export const TEAMS: Team[] = [
         id: "l7",
         challenge: desafioPlagas("EGIPTO"), // ✏️ código que Andy le da al equipo Leones
         clue: {
-          // ✏️ EDITAR
-          text: "El banco más viejo de todos esconde algo donde apoyás los pies… 🪵",
+          text: "Doy vueltas y vueltas, los chicos se ríen conmigo, soy la alegría del patio y de cada Sábado.",
           code: "GOSEN",
         },
       },
@@ -507,7 +497,7 @@ export const TEAMS: Team[] = [
           subtitle: "Tocá las palabras en orden.",
           phrase: "El mensaje del advenimiento a todo el mundo en mi generación",
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "SION" },
+        clue: { text: "Guardo agua fresquita pero no estoy en las alturas, sin una bomba de por medio no te llega a las cañerías.", code: "SION" },
       },
       {
         id: "l10",
@@ -518,7 +508,7 @@ export const TEAMS: Team[] = [
           subtitle: "De la primera a la última.",
           items: ["Amigo", "Compañero", "Explorador", "Orientador", "Viajero", "Guía"],
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "NAZARET" },
+        clue: { text: "Estoy clavada en madera y espero que me usen bien, soy la herramienta del leñador... ¿quién me encontrará también?", code: "NAZARET" },
       },
       {
         id: "l11",
@@ -530,7 +520,7 @@ export const TEAMS: Team[] = [
           targets: ["Amor", "Gozo", "Paz", "Paciencia", "Benignidad", "Bondad", "Fe", "Mansedumbre", "Templanza"],
           decoys: ["Ira", "Envidia", "Orgullo", "Egoísmo", "Pereza", "Mentira", "Codicia", "Rencor", "Miedo", "Venganza", "Soberbia"],
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "BELEN" },
+        clue: { text: "Buscá a Facu o a Nico y mostrales las fotos del reto para recibir el código.", code: "BELEN" },
       },
       {
         id: "l12",
@@ -542,7 +532,7 @@ export const TEAMS: Team[] = [
             "Con una cuerda o un cordón, hagan un NUDO LLANO (o el que indique el líder) y muéstrenselo en persona.\n\nSi está bien hecho, el líder les da el código para continuar.",
           code: "NUDOOKL", // ✏️ EDITAR: código que da el líder al aprobar el reto
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "JUDEA" },
+        clue: { text: "Tengo muchos peldaños, te llevo para arriba o para abajo, pero nunca camino sola, siempre hago ese trabajo.", code: "JUDEA" },
       },
       {
         id: "l13",
@@ -554,7 +544,7 @@ export const TEAMS: Team[] = [
             "Con el celu del equipo, saquen fotos representando AL MENOS 3 frutos del Espíritu (por ejemplo, gozo = todos riendo; paz = abrazo; paciencia = haciendo una fila).\n\nMuéstrenle las fotos al líder para recibir el código.",
           code: "FRUTOSOKL", // ✏️ EDITAR: código que da el líder al aprobar el reto
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "SAMARIA" },
+        clue: { text: "Soy un armario empotrado, guardián de latas y frascos, si tenés hambre a medianoche, en mí encontrás los abastos.", code: "SAMARIA" },
       },
       {
         id: "l14",
@@ -565,7 +555,7 @@ export const TEAMS: Team[] = [
           options: ["6", "7", "8", "10"],
           correct: 2,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "EGIPTO" },
+        clue: { text: "Soy el segundo corazón de Nico, lo llevo a todos lados y hasta a veces me pico.", code: "EGIPTO" },
       },
       {
         id: "l15",
@@ -576,7 +566,7 @@ export const TEAMS: Team[] = [
           options: ["Orientación", "Astronomía", "Arte de acampar", "Senderismo"],
           correct: 0,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "JORDAN" },
+        clue: { text: "Soy un yuyo gigantón que al mate le da sabor, me encontrás en el predio y soy de lo mejor.", code: "JORDAN" },
       },
       {
         id: "l16",
@@ -587,7 +577,7 @@ export const TEAMS: Team[] = [
           options: ["Amigo", "Compañero", "Capitán", "Explorador"],
           correct: 2,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "SINAI" },
+        clue: { text: "Tengo paños verdes pero no soy un jardín, con un taco y unas bolas se juega hasta el fin.", code: "SINAI" },
       },
       {
         id: "l17",
@@ -598,7 +588,7 @@ export const TEAMS: Team[] = [
           subtitle: "Tocá las palabras en orden.",
           phrase: "Lámpara es a mis pies tu palabra y lumbrera a mi camino",
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "TABOR" },
+        clue: { text: "Te lo voy a contar porque ya soy difícil de buscar, en el aula de arriba al medio me vas a encontrar.", code: "TABOR" },
       },
       {
         id: "l18",
@@ -609,7 +599,7 @@ export const TEAMS: Team[] = [
           options: ["Soplar la herida para que no arda", "Presionar la zona con un paño limpio", "Mojarla con agua bien fría", "Frotarla con tierra"],
           correct: 1,
         },
-        clue: { text: "✏️ EDITAR: pista hacia el código escondido…", code: "JERUSALEN" },
+        clue: { text: "Busca la pista del personaje del sermón de hoy y completá el último desafío.", code: "JERUSALEN" },
       },
       {
         id: "l8",
