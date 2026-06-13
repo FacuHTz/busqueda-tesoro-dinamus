@@ -9,6 +9,9 @@ type Props = {
   clue: Clue;
   clueNumber: number; // 1-based
   isLast: boolean; // si es la pista final que lleva al tesoro
+  /** Cuando el siguiente desafío es fotográfico, la pista no pide código
+   *  sino que muestra un botón "INICIAR RETO" que avanza directamente. */
+  nextIsPhotoChallenge?: boolean;
   onCorrect: () => void;
   onTooManyAttempts: () => void; // 5 intentos fallidos → penalización
 };
@@ -17,7 +20,7 @@ type Props = {
  * Pantalla de pista 🗺️: muestra la pista de ubicación y pide
  * el código escrito en el papel escondido.
  */
-export default function ClueScreen({ clue, clueNumber, isLast, onCorrect, onTooManyAttempts }: Props) {
+export default function ClueScreen({ clue, clueNumber, isLast, nextIsPhotoChallenge, onCorrect, onTooManyAttempts }: Props) {
   const [code, setCode] = useState("");
   const [error, setError] = useState(false);
   const [attempts, setAttempts] = useState(0);
@@ -64,38 +67,50 @@ export default function ClueScreen({ clue, clueNumber, isLast, onCorrect, onTooM
           </p>
         </div>
 
-        <div className={`mt-7 ${error ? "animate-shake" : ""}`}>
-          <input
-            value={code}
-            onChange={(e) => setCode(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && validate()}
-            placeholder="CÓDIGO ESCONDIDO"
-            autoCapitalize="characters"
-            autoCorrect="off"
-            spellCheck={false}
-            className={`w-full rounded-2xl border-2 bg-slate-900/70 px-5 py-4 text-center text-xl font-bold uppercase tracking-[0.2em] text-amber-300 placeholder:text-base placeholder:font-medium placeholder:tracking-normal placeholder:text-slate-600 focus:outline-none ${
-              error
-                ? "border-rose-500/80 shadow-lg shadow-rose-500/20"
-                : "border-slate-700 focus:border-amber-400"
-            }`}
-          />
-          {error && (
-            <p className="mt-2 animate-pop text-center text-sm font-semibold text-rose-400">
-              Ese código no es 😬{" "}
-              {remaining > 0 && remaining < CONFIG.MAX_CODE_ATTEMPTS && (
-                <span className="text-slate-500">({remaining} intentos antes del bloqueo)</span>
+        {nextIsPhotoChallenge ? (
+          /* Reto fotográfico: no pide código, avanza directo al challenge */
+          <button
+            onClick={onCorrect}
+            className="mt-7 w-full rounded-2xl bg-gradient-to-r from-sky-400 to-cyan-500 px-6 py-4 text-lg font-bold text-slate-900 shadow-xl shadow-sky-500/30 transition active:scale-[0.97]"
+          >
+            INICIAR RETO 📸
+          </button>
+        ) : (
+          <>
+            <div className={`mt-7 ${error ? "animate-shake" : ""}`}>
+              <input
+                value={code}
+                onChange={(e) => setCode(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && validate()}
+                placeholder="CÓDIGO ESCONDIDO"
+                autoCapitalize="characters"
+                autoCorrect="off"
+                spellCheck={false}
+                className={`w-full rounded-2xl border-2 bg-slate-900/70 px-5 py-4 text-center text-xl font-bold uppercase tracking-[0.2em] text-amber-300 placeholder:text-base placeholder:font-medium placeholder:tracking-normal placeholder:text-slate-600 focus:outline-none ${
+                  error
+                    ? "border-rose-500/80 shadow-lg shadow-rose-500/20"
+                    : "border-slate-700 focus:border-amber-400"
+                }`}
+              />
+              {error && (
+                <p className="mt-2 animate-pop text-center text-sm font-semibold text-rose-400">
+                  Ese código no es 😬{" "}
+                  {remaining > 0 && remaining < CONFIG.MAX_CODE_ATTEMPTS && (
+                    <span className="text-slate-500">({remaining} intentos antes del bloqueo)</span>
+                  )}
+                </p>
               )}
-            </p>
-          )}
-        </div>
+            </div>
 
-        <button
-          onClick={validate}
-          disabled={!code.trim()}
-          className="mt-5 w-full rounded-2xl bg-gradient-to-r from-amber-400 to-yellow-500 px-6 py-4 text-lg font-bold text-slate-900 shadow-xl shadow-amber-500/30 transition active:scale-[0.97] disabled:opacity-40 disabled:shadow-none"
-        >
-          {isLast ? "¡ABRIR EL TESORO! 💰" : "DESBLOQUEAR 🔓"}
-        </button>
+            <button
+              onClick={validate}
+              disabled={!code.trim()}
+              className="mt-5 w-full rounded-2xl bg-gradient-to-r from-amber-400 to-yellow-500 px-6 py-4 text-lg font-bold text-slate-900 shadow-xl shadow-amber-500/30 transition active:scale-[0.97] disabled:opacity-40 disabled:shadow-none"
+            >
+              {isLast ? "¡ABRIR EL TESORO! 💰" : "DESBLOQUEAR 🔓"}
+            </button>
+          </>
+        )}
       </div>
     </div>
   );
