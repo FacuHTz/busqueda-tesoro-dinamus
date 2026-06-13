@@ -532,7 +532,7 @@ export const TEAMS: Team[] = [
             "Con una cuerda o un cordón, hagan un NUDO LLANO (o el que indique el líder) y muéstrenselo en persona.\n\nSi está bien hecho, el líder les da el código para continuar.",
           code: "NUDOOKL", // ✏️ EDITAR: código que da el líder al aprobar el reto
         },
-        clue: { text: "Tengo muchos peldaños, te llevo para arriba o para abajo, pero nunca camino sola, siempre hago ese trabajo.", code: "JUDEA" },
+        clue: { text: "Buscá a Facu o a Nico y mostrales las fotos del reto para recibir el código.", code: "JUDEA" },
       },
       {
         id: "l13",
@@ -544,7 +544,7 @@ export const TEAMS: Team[] = [
             "Con el celu del equipo, saquen fotos representando AL MENOS 3 frutos del Espíritu (por ejemplo, gozo = todos riendo; paz = abrazo; paciencia = haciendo una fila).\n\nMuéstrenle las fotos al líder para recibir el código.",
           code: "FRUTOSOKL", // ✏️ EDITAR: código que da el líder al aprobar el reto
         },
-        clue: { text: "Soy un armario empotrado, guardián de latas y frascos, si tenés hambre a medianoche, en mí encontrás los abastos.", code: "SAMARIA" },
+        clue: { text: "Soy un armario empotrado, guardián de latas y frascos, si tenés hambre a medianoche, en mí encontrás los abastos.", code: "EGIPTO" },
       },
       {
         id: "l14",
@@ -555,7 +555,7 @@ export const TEAMS: Team[] = [
           options: ["6", "7", "8", "10"],
           correct: 2,
         },
-        clue: { text: "Soy el segundo corazón de Nico, lo llevo a todos lados y hasta a veces me pico.", code: "EGIPTO" },
+        clue: { text: "Soy el segundo corazón de Nico, lo llevo a todos lados y hasta a veces me pico.", code: "JORDAN" },
       },
       {
         id: "l15",
@@ -566,7 +566,7 @@ export const TEAMS: Team[] = [
           options: ["Orientación", "Astronomía", "Arte de acampar", "Senderismo"],
           correct: 0,
         },
-        clue: { text: "Soy un yuyo gigantón que al mate le da sabor, me encontrás en el predio y soy de lo mejor.", code: "JORDAN" },
+        clue: { text: "Soy un yuyo gigantón que al mate le da sabor, me encontrás en el predio y soy de lo mejor.", code: "SINAI" },
       },
       {
         id: "l16",
@@ -577,7 +577,7 @@ export const TEAMS: Team[] = [
           options: ["Amigo", "Compañero", "Capitán", "Explorador"],
           correct: 2,
         },
-        clue: { text: "Tengo paños verdes pero no soy un jardín, con un taco y unas bolas se juega hasta el fin.", code: "SINAI" },
+        clue: { text: "Tengo paños verdes pero no soy un jardín, con un taco y unas bolas se juega hasta el fin.", code: "TABOR" },
       },
       {
         id: "l17",
@@ -588,7 +588,7 @@ export const TEAMS: Team[] = [
           subtitle: "Tocá las palabras en orden.",
           phrase: "Lámpara es a mis pies tu palabra y lumbrera a mi camino",
         },
-        clue: { text: "Te lo voy a contar porque ya soy difícil de buscar, en el aula de arriba al medio me vas a encontrar.", code: "TABOR" },
+        clue: { text: "Te lo voy a contar porque ya soy difícil de buscar, en el aula de arriba al medio me vas a encontrar.", code: "JERUSALEN" },
       },
       {
         id: "l18",
@@ -599,14 +599,14 @@ export const TEAMS: Team[] = [
           options: ["Soplar la herida para que no arda", "Presionar la zona con un paño limpio", "Mojarla con agua bien fría", "Frotarla con tierra"],
           correct: 1,
         },
-        clue: { text: "Busca la pista del personaje del sermón de hoy y completá el último desafío.", code: "JERUSALEN" },
+        clue: { text: "Ya estamos cerca de la final! para este momento tendrás que recordar de quien habló en su tema gonza anoche", code: "SAMUEL" },
       },
       {
         id: "l8",
         challenge: DESAFIO_SERMON,
         clue: {
           // ✏️ EDITAR: ¡la pista FINAL! Lleva directo al tesoro.
-          text: "🏆 ¡ÚLTIMA PISTA! El tesoro los espera donde nace la sombra más grande del patio… Cuando lo encuentren, ingresen el código que está pegado al cofre.",
+          text: "🏆 ¡ÚLTIMA PISTA!  La llave del tesoro los espera en un objeto redondo, que pica, crea disputas y nos alegra las noches de after",
           code: "VICTORIA", // ✏️ código pegado al tesoro del equipo Leones
         },
       },
