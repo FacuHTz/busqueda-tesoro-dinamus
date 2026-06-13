@@ -79,7 +79,19 @@ export default function Page() {
   };
 
   // ── Código de pista correcto ──────────────────────────────
-  const handleClueCode = () => setOverlay("code-ok");
+  const handleClueCode = () => {
+    if (!progress || !team) return;
+    // Si la siguiente pantalla es un reto fotográfico, avanzar directo sin toast
+    const nextIndex = progress.stepIndex + 1;
+    if (
+      nextIndex < team.steps.length &&
+      team.steps[nextIndex].challenge.type === "photo-challenge"
+    ) {
+      advanceAfterClue();
+    } else {
+      setOverlay("code-ok");
+    }
+  };
 
   const advanceAfterClue = useCallback(() => {
     setProgress((prev) => {
@@ -191,6 +203,10 @@ export default function Page() {
             clue={step.clue}
             clueNumber={progress.stepIndex + 1}
             isLast={progress.stepIndex === team.steps.length - 1}
+            nextIsPhotoChallenge={
+              progress.stepIndex + 1 < team.steps.length &&
+              team.steps[progress.stepIndex + 1].challenge.type === "photo-challenge"
+            }
             onCorrect={handleClueCode}
             onTooManyAttempts={handleChallengeWrong}
           />
